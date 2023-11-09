@@ -2,7 +2,7 @@ import telebot
 from currency_converter import CurrencyConverter
 from telebot import types
 
-bot = telebot.TeleBot('6975859325:AAHVJ59iryGP6QOQE_eCYkTIhvUF10zocfM')
+bot = telebot.TeleBot('')
 # обращаемся к классу Telebot, вставляем токен нашего бота
 currency = CurrencyConverter()
 amount = 0
